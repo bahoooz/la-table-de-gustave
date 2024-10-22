@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   title: "La Table de Gustave",
   description: "La Table de Gustave",
   icons: {
-    icon: "/assets/logo.png",
+    icon: "/assets/logo.webp",
   },
 };
 
