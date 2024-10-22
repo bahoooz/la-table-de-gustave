@@ -49,11 +49,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cinzel.variable} ${great_vibes.variable} ${dmsans.variable} ${dmserifDisplay.variable} antialiased bg-bgColor text-white`}
+        className={`${cinzel.variable} ${great_vibes.variable} ${dmsans.variable} ${dmserifDisplay.variable} antialiased bg-bgColor text-white overflow-x-hidden`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="transition-all duration-300">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

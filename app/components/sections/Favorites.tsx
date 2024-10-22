@@ -1,10 +1,23 @@
+"use client";
+
 import React from "react";
 import FavoriteCard from "../FavoriteCard";
 import gustaveFavoritesData from "../../data/gustave_favorites_data/gustave_favorites.json";
+import { motion } from "framer-motion";
 
 const Favorites = () => {
   return (
-    <section className="my-20 lg:my-28">
+    <motion.section
+      className="my-20 lg:my-28"
+      id="favorites"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      // La propriété 'viewport' permet de configurer le comportement de l'animation en fonction de la visibilité de l'élément dans la fenêtre de visualisation.
+      // 'once: true' signifie que l'animation ne se déclenchera qu'une seule fois lorsque l'élément entre dans la vue.
+      // 'amount: 0.3' signifie que l'animation se déclenchera lorsque 30% de l'élément sera visible dans la fenêtre de visualisation.
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.3, delay: 0.2 }}
+    >
       <h2 className="capitalize mb-20 lg:mb-28 text-center text-titleColor font-dmserif-display text-3xl">
         Les favoris de Gustave
       </h2>
@@ -18,7 +31,7 @@ const Favorites = () => {
           />
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

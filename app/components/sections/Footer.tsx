@@ -19,17 +19,24 @@ export default function Footer() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            title="La Table de Gustave"
           ></iframe>
         </div>
         <div className="md:flex md:justify-between xl:justify-center xl:gap-16 2xl:justify-between md:items-center 2xl:w-1/2">
           <ul className="font-dm-sans text-lg mt-20 flex flex-col gap-4">
             <li className="flex items-center gap-3">
               <Phone size={32} className="min-w-[32px]" weight="light" />
-              <Link href="tel:+33147050457">01 47 05 04 57</Link>
+              <Link
+                className="hover:underline hover:underline-offset-4"
+                href="tel:+33147050457"
+              >
+                01 47 05 04 57
+              </Link>
             </li>
             <li className="flex items-center gap-3">
               <MapPin size={34} className="min-w-[34px]" weight="light" />
               <Link
+                className="hover:underline hover:underline-offset-4"
                 target="_blank"
                 href="https://www.google.com/maps?ll=48.859169,2.298058&z=15&t=m&hl=fr&gl=FR&mapclient=embed&cid=9363263693149417882"
               >
@@ -42,20 +49,28 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Globe size={32} className="min-w-[32px]" weight="light" />
-              <Link href="tel:+33147050457">01 47 05 04 57</Link>
+              <Link
+                className="hover:underline hover:underline-offset-4"
+                href="/"
+              >
+                table-gustave.vercel.app
+              </Link>
             </li>
           </ul>
           <ul className="flex flex-col gap-8 mt-20 text-lg font-cinzel text-titleColor md:text-end">
-            <li onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <li
+              className="cursor-pointer hover:underline hover:underline-offset-4"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Chez Gustave
             </li>
-            <li>
+            <li className="cursor-pointer hover:underline hover:underline-offset-4">
               <Link href="#la-carte">La Carte</Link>
             </li>
-            <li>
+            <li className="cursor-pointer hover:underline hover:underline-offset-4">
               <Link href="#evenements">Événements</Link>
             </li>
-            <li>
+            <li className="cursor-pointer hover:underline hover:underline-offset-4">
               <Link href="#histoire-de-gustave">L'histoire de Gustave</Link>
             </li>
           </ul>
@@ -67,7 +82,7 @@ export default function Footer() {
         <Link
           target="_blank"
           href="https://bahoz-dev.com"
-          className="text-titleColor"
+          className="text-titleColor hover:underline hover:underline-offset-4"
         >
           Bahoz
         </Link>

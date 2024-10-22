@@ -1,9 +1,36 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { Button } from "@nextui-org/react";
+import LogoModal from "../LogoModal";
 
 const History = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpenChange = () => {
+    setIsOpen(!isOpen);
+  };
+
+  useEffect(() => {
+    const body = document.body;
+    if (isOpen) {
+      body.classList.add("blur-bg");
+    } else {
+      body.classList.remove("blur-bg");
+    }
+  }, [isOpen]);
+
   return (
-    <section id="histoire-de-gustave" className="md:max-w-3xl xl:max-w-[1200px] md:mx-auto mb-20 lg:mb-28">
+    <motion.section
+      id="histoire-de-gustave"
+      className="md:max-w-3xl xl:max-w-[1200px] md:mx-auto mb-20 lg:mb-28"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.1 }}
+      transition={{ duration: 0.3, delay: 0.2 }}
+    >
       <h2 className="capitalize mb-20 lg:mb-28 text-center text-titleColor font-dmserif-display text-3xl">
         L'histoire de Gustave
       </h2>
@@ -51,13 +78,17 @@ const History = () => {
             .
           </p>
           <div className="px-12 sm:px-16 xl:px-0">
-            <button className="font-dm-sans text-base border px-5 py-3 w-fit capitalize">
+            <Button
+              className="font-dm-sans text-base outline-1 outline-white px-5 py-3 w-fit capitalize hover:bg-titleColor hover:text-bgColor hover:outline-none"
+              onClick={handleOpenChange}
+            >
               Découvrir toute l'histoire
-            </button>
+            </Button>
           </div>
         </div>
       </div>
-    </section>
+      <LogoModal isOpen={isOpen} onOpenChange={handleOpenChange} />
+    </motion.section>
   );
 };
 

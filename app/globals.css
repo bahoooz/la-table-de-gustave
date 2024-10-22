@@ -42,3 +42,16 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.blur-bg::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  z-index: 40;
+  transition: backdrop-filter 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
