@@ -1,16 +1,16 @@
 [
   {
-    "img": "/assets/favorite_1.png",
+    "img": "/assets/favorite-1.webp",
     "title": "Gratin Dauphinois",
     "dishPerDay": 300
   },
   {
-    "img": "/assets/favorite_2.png",
+    "img": "/assets/favorite-2.webp",
     "title": "Bœuf Bourguignon",
     "dishPerDay": 280
   },
   {
-    "img": "/assets/favorite_3.png",
+    "img": "/assets/favorite-3.webp",
     "title": "Coq au Vin",
     "dishPerDay": 240
   }

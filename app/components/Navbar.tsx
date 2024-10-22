@@ -61,7 +61,7 @@ const Navbar = () => {
         onClick={onOpen}
       >
         <Image
-          src={"/assets/logo.png"}
+          src={"/assets/logo.webp"}
           alt="logo"
           width={1024}
           height={1024}

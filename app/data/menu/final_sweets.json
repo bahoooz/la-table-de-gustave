@@ -1,39 +1,38 @@
 [
-    {
-      "img": "/assets/entrée-1.png",
-      "title": "Terrine de Foie Gras",
-      "ingredients": "Foie gras de canard, sel, poivre, cognac, épices douces, confit d'oignons, pain brioché.",
-      "price": "37,99"
-    },
-    {
-      "img": "/assets/entrée-2.png",
-      "title": "Tartare de Saumon",
-      "ingredients": "Saumon frais, citron vert, huile d'olive, câpres, échalotes, aneth, avocat, gingembre frais, sel, poivre.",
-      "price": "39,99"
-    },
-    {
-      "img": "/assets/entrée-3.png",
-      "title": "Escargots de Bourgogne",
-      "ingredients": "Escargots, beurre, ail, persil, échalotes, sel, poivre, baguette fraîche.",
-      "price": "37,99"
-    },
-    {
-      "img": "/assets/entrée-4.png",
-      "title": "Croustillant de Camembert",
-      "ingredients": "Camembert, chapelure, œufs, farine, compote de pommes ou de cranberries, salade verte.",
-      "price": "29,99"
-    },
-    {
-      "img": "/assets/entrée-5.png",
-      "title": "Soupe à l'Oignon Gratinée",
-      "ingredients": "Oignons, bouillon de bœuf, beurre, baguette, fromage (gruyère ou comté), herbes fraîches.",
-      "price": "29,99"
-    },
-    {
-      "img": "/assets/entrée-6.png",
-      "title": "Quiche Lorraine",
-      "ingredients": "Pâte brisée, œufs, crème fraîche, lardons, fromage (gruyère), sel, poivre.",
-      "price": "34,99"
-    }
-  ]
-  
+  {
+    "img": "/assets/final-sweet-1.webp",
+    "title": "Profiteroles au Chocolat",
+    "ingredients": "Pâte à choux, glace à la vanille, chocolat noir, crème liquide, sucre, beurre, amandes effilées (optionnel), sucre glace.",
+    "price": "29,99"
+  },
+  {
+    "img": "/assets/final-sweet-2.webp",
+    "title": "Millefeuille",
+    "ingredients": "Pâte feuilletée, crème pâtissière, sucre glace, chocolat noir, vanille, lait, farine, beurre, œufs.",
+    "price": "20,99"
+  },
+  {
+    "img": "/assets/final-sweet-3.webp",
+    "title": "Tarte au Citron Meringuée",
+    "ingredients": "Pâte sablée, citron, sucre, œufs, beurre, meringue (blancs d'œufs, sucre), sel.",
+    "price": "22,99"
+  },
+  {
+    "img": "/assets/final-sweet-4.webp",
+    "title": "Paris-Brest",
+    "ingredients": "Pâte à choux, crème pralinée, beurre, sucre, amandes effilées, sucre glace.",
+    "price": "23,99"
+  },
+  {
+    "img": "/assets/final-sweet-5.webp",
+    "title": "Clafoutis aux Cerises",
+    "ingredients": "Cerises, œufs, lait, farine, sucre, beurre, sucre glace, vanille.",
+    "price": "20,99"
+  },
+  {
+    "img": "/assets/final-sweet-6.webp",
+    "title": "Tarte Tatin",
+    "ingredients": "Pommes, sucre, beurre, pâte brisée, vanille, crème fraîche (optionnel).",
+    "price": "24,99"
+  }
+]

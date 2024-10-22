@@ -3,18 +3,18 @@
     "title": "Soirées Dégustation de Vins et Fromages",
     "desc": "Une soirée où les clients peuvent déguster une sélection de vins français accompagnés de fromages locaux.",
     "when": "Tous les mardis soirs de 21h à 23h",
-    "img": "/assets/event-1.png"
+    "img": "/assets/event-1.webp"
   },
   {
     "title": "Soirée Cuisine et Cinéma",
     "desc": "Diffusion d'un film français classique, suivi d'un dîner avec un menu inspiré par le film.",
     "when": "Tous les samedis soirs de 23h à 02h",
-    "img": "/assets/event-2.png"
+    "img": "/assets/event-2.webp"
   },
   {
     "title": "Menu du Chef en Édition Limitée",
     "desc": "Une soirée où le chef crée un menu unique en édition limitée, mettant en avant des ingrédients de saison et des techniques culinaires innovantes.",
     "when": "Tous les dimanches midis de 12h à 14h",
-    "img": "/assets/event-3.png"
+    "img": "/assets/event-3.webp"
   }
 ]

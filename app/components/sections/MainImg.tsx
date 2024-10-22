@@ -13,7 +13,7 @@ const MainImg = () => {
       transition={{ duration: 0.5, delay: 0.2 }}
     >
       <Image
-        src={"/assets/img_main.png"}
+        src={"/assets/img_main.webp"}
         alt="Image de Gustave"
         width={1792}
         height={1024}

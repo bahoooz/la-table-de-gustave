@@ -1,39 +1,38 @@
 [
-    {
-      "img": "/assets/entrée-1.png",
-      "title": "Terrine de Foie Gras",
-      "ingredients": "Foie gras de canard, sel, poivre, cognac, épices douces, confit d'oignons, pain brioché.",
-      "price": "37,99"
-    },
-    {
-      "img": "/assets/entrée-2.png",
-      "title": "Tartare de Saumon",
-      "ingredients": "Saumon frais, citron vert, huile d'olive, câpres, échalotes, aneth, avocat, gingembre frais, sel, poivre.",
-      "price": "39,99"
-    },
-    {
-      "img": "/assets/entrée-3.png",
-      "title": "Escargots de Bourgogne",
-      "ingredients": "Escargots, beurre, ail, persil, échalotes, sel, poivre, baguette fraîche.",
-      "price": "37,99"
-    },
-    {
-      "img": "/assets/entrée-4.png",
-      "title": "Croustillant de Camembert",
-      "ingredients": "Camembert, chapelure, œufs, farine, compote de pommes ou de cranberries, salade verte.",
-      "price": "29,99"
-    },
-    {
-      "img": "/assets/entrée-5.png",
-      "title": "Soupe à l'Oignon Gratinée",
-      "ingredients": "Oignons, bouillon de bœuf, beurre, baguette, fromage (gruyère ou comté), herbes fraîches.",
-      "price": "29,99"
-    },
-    {
-      "img": "/assets/entrée-6.png",
-      "title": "Quiche Lorraine",
-      "ingredients": "Pâte brisée, œufs, crème fraîche, lardons, fromage (gruyère), sel, poivre.",
-      "price": "34,99"
-    }
-  ]
-  
+  {
+    "img": "/assets/favorite-1.webp",
+    "title": "Gratin dauphinois",
+    "ingredients": "Pommes de terre, crème fraîche, lait, ail, beurre, sel, poivre, muscade.",
+    "price": "54,99"
+  },
+  {
+    "img": "/assets/favorite-2.webp",
+    "title": "Bœuf Bourguignon",
+    "ingredients": "Bœuf, vin rouge, carottes, oignons, champignons, lardons, ail, bouillon de bœuf, thym, laurier, sel, poivre.",
+    "price": "44,99"
+  },
+  {
+    "img": "/assets/favorite-3.webp",
+    "title": "Coq au Vin",
+    "ingredients": "Poulet, vin rouge, champignons, oignons perlés, lardons, ail, bouillon de volaille, thym, laurier, sel, poivre.",
+    "price": "41,99"
+  },
+  {
+    "img": "/assets/signature-dish-4.webp",
+    "title": "Magret de Canard aux Figues",
+    "ingredients": "Magret de canard, figues fraîches, vin rouge, miel, beurre, pommes de terre, sel, poivre.",
+    "price": "49,99"
+  },
+  {
+    "img": "/assets/signature-dish-5.webp",
+    "title": "Choucroute Garnie Alsacienne",
+    "ingredients": "Choucroute, saucisses, jambonneau, lard fumé, pommes de terre, vin blanc, moutarde, sel, poivre.",
+    "price": "44,99"
+  },
+  {
+    "img": "/assets/signature-dish-6.webp",
+    "title": "Blanquette de Veau à l'Ancienne",
+    "ingredients": "Veau, carottes, champignons, oignons perlés, bouillon de volaille, crème fraîche, beurre, farine, jaune d'œuf, citron, thym, laurier, sel, poivre.",
+    "price": "39,99"
+  }
+]

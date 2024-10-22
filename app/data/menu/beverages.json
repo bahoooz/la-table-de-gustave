@@ -1,39 +1,38 @@
 [
-    {
-      "img": "/assets/entrée-1.png",
-      "title": "Terrine de Foie Gras",
-      "ingredients": "Foie gras de canard, sel, poivre, cognac, épices douces, confit d'oignons, pain brioché.",
-      "price": "37,99"
-    },
-    {
-      "img": "/assets/entrée-2.png",
-      "title": "Tartare de Saumon",
-      "ingredients": "Saumon frais, citron vert, huile d'olive, câpres, échalotes, aneth, avocat, gingembre frais, sel, poivre.",
-      "price": "39,99"
-    },
-    {
-      "img": "/assets/entrée-3.png",
-      "title": "Escargots de Bourgogne",
-      "ingredients": "Escargots, beurre, ail, persil, échalotes, sel, poivre, baguette fraîche.",
-      "price": "37,99"
-    },
-    {
-      "img": "/assets/entrée-4.png",
-      "title": "Croustillant de Camembert",
-      "ingredients": "Camembert, chapelure, œufs, farine, compote de pommes ou de cranberries, salade verte.",
-      "price": "29,99"
-    },
-    {
-      "img": "/assets/entrée-5.png",
-      "title": "Soupe à l'Oignon Gratinée",
-      "ingredients": "Oignons, bouillon de bœuf, beurre, baguette, fromage (gruyère ou comté), herbes fraîches.",
-      "price": "29,99"
-    },
-    {
-      "img": "/assets/entrée-6.png",
-      "title": "Quiche Lorraine",
-      "ingredients": "Pâte brisée, œufs, crème fraîche, lardons, fromage (gruyère), sel, poivre.",
-      "price": "34,99"
-    }
-  ]
-  
+  {
+    "img": "/assets/beverage-1.webp",
+    "title": "Rosé de Provence",
+    "ingredients": "Cépages Grenache, Cinsault, Syrah, Mourvèdre (variété de raisins utilisés dans l'assemblage).",
+    "price": "26,99"
+  },
+  {
+    "img": "/assets/beverage-2.webp",
+    "title": "Chablis",
+    "ingredients": "Cépage Chardonnay (utilisé exclusivement pour produire le Chablis), raisins cultivés dans la région de Chablis en Bourgogne, sol riche en minéraux, apportant des notes fraîches et minérales.",
+    "price": "24,99"
+  },
+  {
+    "img": "/assets/beverage-3.webp",
+    "title": "Calvados",
+    "ingredients": "Pommes (variétés à cidre), distillation du cidre, vieillissement en fûts de chêne.",
+    "price": "21,99"
+  },
+  {
+    "img": "/assets/beverage-4.webp",
+    "title": "Bière Bretonne",
+    "ingredients": "Eau, malt d'orge, houblon, levure, parfois blé noir (sarrasin) pour une touche régionale.",
+    "price": "15,99"
+  },
+  {
+    "img": "/assets/beverage-5.webp",
+    "title": "Citronnade Maison",
+    "ingredients": "Citrons frais, eau, sucre, menthe fraîche, glaçons.",
+    "price": "9,99"
+  },
+  {
+    "img": "/assets/beverage-6.webp",
+    "title": "Thé Glacé à la Française",
+    "ingredients": "Thé noir ou vert, citron, menthe fraîche, sucre, glaçons.",
+    "price": "10,99"
+  }
+]

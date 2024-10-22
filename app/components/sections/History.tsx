@@ -36,7 +36,7 @@ const History = () => {
       </h2>
       <div className="flex flex-col xl:flex-row gap-10 xl:gap-24 xl:px-12 xl:justify-center">
         <Image
-          src="/assets/histoire-de-gustave.png"
+          src="/assets/histoire-de-gustave.webp"
           alt="Histoire de Gustave"
           width={1024}
           height={1024}
