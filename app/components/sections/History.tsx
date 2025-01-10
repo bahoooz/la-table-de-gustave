@@ -41,6 +41,7 @@ const History = () => {
           width={1024}
           height={1024}
           className="sm:px-16 xl:px-0 xl:w-[500px] 2xl:w-[600px] xl:h-[600px] xl:object-cover"
+          unoptimized={true}
         />
         <div className="xl:flex xl:flex-col xl:justify-center">
           <p className="px-12 sm:px-16 xl:px-0 xl:w-[400px] font-dm-sans text-base mb-10 xl:mb-16">
