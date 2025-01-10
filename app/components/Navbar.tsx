@@ -68,6 +68,7 @@ const Navbar = () => {
           className={`rounded-full w-auto transition-all duration-300 ${
             scrolled ? "h-16" : "h-20"
           }`}
+          unoptimized={true}
         />
       </motion.div>
       <LogoModal isOpen={isOpen} onOpenChange={onOpenChange} />

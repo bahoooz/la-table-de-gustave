@@ -21,6 +21,7 @@ const EventCard = ({ title, img, desc, when }: EventCardProps) => {
           layout="fill"
           objectFit="cover"
           className="absolute inset-0"
+          unoptimized={true}
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
 

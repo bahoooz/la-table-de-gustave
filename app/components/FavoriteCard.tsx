@@ -20,6 +20,7 @@ export default function FavoriteCard({
         width={1024}
         height={1024}
         className="w-72 rounded-full mb-11"
+        unoptimized={true}
       />
       <div className="text-center flex flex-col gap-2">
         <h3 className="font-cinzel text-2xl text-titleColor font-bold">

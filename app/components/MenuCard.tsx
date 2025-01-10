@@ -22,6 +22,7 @@ export default function MenuCard({
         width={1024}
         height={1024}
         className="mb-5 hover:filter hover:blur-[2px] transition-all duration-150"
+        unoptimized={true}
       />
       <div className="flex flex-col gap-5">
         <h3 className="font-cinzel text-2xl text-titleColor font-bold">
